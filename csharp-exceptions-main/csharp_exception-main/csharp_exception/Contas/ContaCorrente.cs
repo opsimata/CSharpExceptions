@@ -1,16 +1,10 @@
 ﻿using csharp_exception.Titular;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace csharp_exception.Contas
 {
     public class ContaCorrente
     {
         public static int TotalDeContasCriadas { get; private set; }
-
         public static float TaxaOperacao { get; private set; }
 
         private int numero_agencia;
@@ -25,7 +19,6 @@ namespace csharp_exception.Contas
                 }
             }
         }
-
 
         public string Conta { get; set; }
 
@@ -104,7 +97,5 @@ namespace csharp_exception.Contas
             */
             TotalDeContasCriadas++;
         }
-
-
     }
 }
