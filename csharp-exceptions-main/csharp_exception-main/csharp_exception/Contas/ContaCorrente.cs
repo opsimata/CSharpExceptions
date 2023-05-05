@@ -23,7 +23,6 @@ namespace csharp_exception.Contas
         public string Conta { get; set; }
 
         private double saldo = 100;
-
         public Cliente Titular { get; set; }
 
         public void Depositar(double valor)
