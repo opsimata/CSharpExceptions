@@ -1,14 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace csharp_exception
+﻿namespace csharp_exception
 {
-    public class SaldoInsufucienteException : Exception
+    public class SaldoInsufucienteException : OperacaoFinanceiraException
     {
-        public SaldoInsufucienteException(string mensagem) : base(mensagem) 
+        public SaldoInsufucienteException(string mensagem) : base(mensagem)
         {
 
         }
