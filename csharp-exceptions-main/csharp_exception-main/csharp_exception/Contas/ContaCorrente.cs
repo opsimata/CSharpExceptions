@@ -39,7 +39,7 @@ namespace csharp_exception.Contas
             }
             else
             {
-                return false;
+                throw new SaldoInsufucienteException("Saldo infuficiente para a operação!");
             }
         }
 
